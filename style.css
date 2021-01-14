@@ -96,7 +96,21 @@ h2{
         margin: auto;
         
     }
+    
+    .stay-connect{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .stay-connect h3{
+        text-align: center;
+    }
+    .my-list{
+        justify-content: center;
+    }
 }
+
+
+
 .card-image-custom{
      height: 300px;
 }
@@ -132,4 +146,8 @@ h2{
 .feature-parts{
     width: 350px;
     height: 150px;
+}
+
+.svgs{
+    font-size: 3rem;
 }
