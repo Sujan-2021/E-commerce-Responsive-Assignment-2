@@ -1,0 +1,135 @@
+h1{
+    
+    color: rgb(0, 0, 65);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h2{
+    color: rgb(0, 0, 65);
+    
+}
+.section-bg{
+    background-color: white;
+}
+.brand-logo{
+    height: 100px;
+    width: 150px;
+}
+.custom-bg{
+    background-color: #fce1aa60;
+    
+}
+.custom-button-bg{
+    background-color: #3D4FF3;
+}
+.custom-nav{
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: -10px;
+    
+}
+.my-nav-item{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    color: wheat;
+    padding-left: 10px;
+}
+.custom-image{
+    width: 100%;
+}
+.ct-design{
+    font-family: 'Bebas Neue', cursive;
+    color: #f58657;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 60px;
+    
+    
+}
+.cs-design{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 60px;
+    
+}
+.button-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.card-button-text{
+    color: white;
+    font-weight: 600;
+}
+
+.card-bg{
+    background-color: rgba(255, 255, 255, 0);;
+}
+
+@media (max-width:768px) {
+    .hero-row {
+        flex-direction: column-reverse;
+    }
+    .features-div{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .feature-parts{
+        margin: 80px;
+        
+        
+    }
+    .feature-parts-child{
+        flex-direction: column;
+
+    }
+    .features-image{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 75%;
+        height: 75%;
+        margin: auto;
+        
+    }
+}
+.card-image-custom{
+     height: 300px;
+}
+.h3-custom-font{
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(0, 0, 65);
+}
+.custom-card-bg{
+    background-color: rgba(128, 128, 128, 0.103);
+}
+.custom-border{
+    border: none;
+}
+.custom-br{
+    border-radius: 10px;
+}
+.custom-card-br{
+    border-radius: 15px;
+}
+.fp-image img{
+    width: 80px;
+    height: 80px;
+   
+}
+.fp-text {
+    margin-left: 30px;
+}
+#features h5{
+    font-weight: bold;
+    color:  rgb(0, 0, 65);
+}
+.feature-parts{
+    width: 350px;
+    height: 150px;
+}
