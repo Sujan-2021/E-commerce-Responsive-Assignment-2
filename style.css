@@ -82,7 +82,7 @@ h2{
         justify-content: center;
     }
     .feature-parts{
-        margin: 80px;
+        margin: 50px auto;
         
         
     }
@@ -100,8 +100,8 @@ h2{
     }
     
     .stay-connect{
-        margin-bottom: 50px;
-        margin-top: 50px;
+        
+        margin: 50px auto;
     }
     .stay-connect h3{
         text-align: center;
