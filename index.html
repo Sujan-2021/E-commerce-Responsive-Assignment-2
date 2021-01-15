@@ -252,7 +252,7 @@
     <Section id="contact" class="container mt-5 p-5 custom-bg">
         <div class="row">
             <div class="col-md-6 col-sm-12 border stay-connect ">
-                <H3 class="">Stay Connected</H3> <br><br>
+                <H3 class="h3-custom-font">Stay Connected</H3> <br><br>
                 <div class="connect d-flex align-items-center ">
                     <div class="connect-image p-2 mx-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-envelope-fill"
@@ -287,9 +287,15 @@
                         
                     
                     </div>
-                    <div class="connect mt-4 mx-5 ">
-                        <h3 class="mx-3">Social Connect</h3>
-                        <ul class=" list-unstyled d-flex mt-3 my-list">
+                    <div class="connect  mt-4 ">
+                        <h3 class="h3-custom-font"><span class="connect-image p-2 mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-people-fill"
+                            viewBox="0 0 16 16">
+                            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            <path fill-rule="evenodd"
+                                d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
+                            <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                        </svg></span>Social Connect</h3>
+                        <ul class=" list-unstyled d-flex mt-3 mx-5 my-list">
                             <li class="p-2 "><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook"
                                 viewBox="0 0 16 16">
                                 <path
@@ -314,16 +320,20 @@
                     <form class="row g-3">
                         <div class="col-md-6">
                             <label for="inputName4" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="inputEmail4">
+                            <input type="text" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">E-mail</label>
-                            <input type="email" class="form-control" id="inputPassword4">
+                            <input type="email" class="form-control" id="inputPassword4" required>
                         </div>
 
-                        <div class="col-md-6 col-sm-12 text-center">
-                            <textarea name="" id=""></textarea>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px" required></textarea>
+                            <label for="floatingTextarea2">Write Your Message & Submit</label>
                         </div>
+
+                        
                         <div class="col-md-12 text-center px-5 ">
                             <button type="submit" class="btn btn-primary custom-br custom-button-bg card-button-text px-5 py-3 mt-3">Submit</button>
                         </div>
