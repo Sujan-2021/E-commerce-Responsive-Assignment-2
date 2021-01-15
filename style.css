@@ -36,25 +36,22 @@ h2{
     color: wheat;
     padding-left: 10px;
 }
-.custom-image{
+.custom-image-width{
     width: 100%;
 }
-.ct-design{
+.hero-ct-design{
     font-family: 'Bebas Neue', cursive;
     color: #f58657;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 60px;
-
-    
+    font-size: 60px;    
 }
 
-.cs-design{
+.hero-cs-design{
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 60px;
-    
+    font-size: 60px;    
 }
 
 .button-icon{
@@ -67,9 +64,12 @@ h2{
     font-weight: 600;
 }
 
-.card-bg{
+.hero-card-bg{
     background-color: rgba(255, 255, 255, 0);;
 }
+
+
+/* Media CSS */
 
 @media (max-width:768px) {
     .hero-row {
@@ -99,7 +99,6 @@ h2{
         
     }
     
-    
     .stay-connect{
         margin-bottom: 50px;
         margin-top: 50px;
@@ -111,6 +110,8 @@ h2{
         justify-content: center;
     }
 }
+
+/* Media CSS end */
 
 
 
@@ -134,14 +135,7 @@ h2{
 .custom-card-br{
     border-radius: 15px;
 }
-.fp-image img{
-    width: 80px;
-    height: 80px;
-   
-}
-.fp-text {
-    margin-left: 30px;
-}
+
 #features h5{
     font-weight: bold;
     color:  rgb(0, 0, 65);
@@ -149,6 +143,14 @@ h2{
 .feature-parts{
     width: 350px;
     height: 150px;
+}
+.fp-image img{
+    width: 80px;
+    height: 80px;
+   
+}
+.fp-text {
+    margin-left: 30px;
 }
 
 .my-list li{
