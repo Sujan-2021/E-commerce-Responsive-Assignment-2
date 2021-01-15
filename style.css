@@ -23,6 +23,9 @@ h2{
 .custom-button-bg{
     background-color: #3D4FF3;
 }
+/* .custom-button-padding{
+    padding: 10px;
+} */
 .custom-nav{
     padding-right: 50px;
     padding-left: 50px;
@@ -75,6 +78,10 @@ h2{
     .hero-row {
         flex-direction: column-reverse;
     }
+    .custom-button-padding{
+    padding: 5px 10px;
+}
+
     .features-div{
         flex-direction: column-reverse;
         text-align: center;
