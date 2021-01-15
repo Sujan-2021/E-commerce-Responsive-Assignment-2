@@ -114,6 +114,9 @@ h2{
 /* Media CSS end */
 
 
+.td-none{
+    text-decoration: none;
+}
 
 .card-image-custom{
      height: 300px;
